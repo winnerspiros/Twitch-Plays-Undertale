@@ -110,7 +110,6 @@ while True:
             for message in new_messages:
                 msg = message['message'].lower()
                 username = message['username'].lower()
-
                 if msg in ['up', 'u', 'forward', 'go up']:
                     PressKeyPynput(UP_ARROW)
                     time.sleep(1.0)
